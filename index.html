@@ -1,0 +1,87 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />       
+</head>
+<body>
+    <div>
+        <h1>Welcome to our website!</h1>
+        <p style="font-family: EXO 2;"> </p>RALPH : RINA</p>
+    <div class=""bg>
+        <div class="form-container">
+            <p class="form-header"> REGISTRATION FORM </p>
+            
+            <form>
+                <table class="form-table">
+                    <tr>
+                        <td> Name: </td>
+                        <td> <input type="text" placeholder="Enter your name" id="name" required/> </td>
+                    </tr>
+                    <tr>
+                        <td> Course: </td>
+                        <td><select name="" id="">
+                            <option value="Select" disabled selected>Select a course</option>
+                            <option value="BSCS">Computer Science</option>
+                            <option value="BSIT">Information Technology</option>
+                            <option value="BSBA">Business Administration</option>
+                            <option value="BMA">Multimedia Arts</option>
+                            <option value="BSCE">Civil Engineering</option>
+    
+                        </select> </td>
+
+                        <tr> 
+                            <td> Year Level: </td>
+                        <td><select name="" id="">
+                            <option value="Select" disabled selected>Select a Year Level</option>
+                            <option value="1">1st Year</option>
+                            <option value="2">2nd Year</option>
+                            <option value="3">3rd Year</option>
+                            <option value="4">4th Year</option>
+                            <option value="5">5th Year</option>
+                        </select> </td>
+                        </tr>
+                        <tr>
+                            <td> Date of birth: </td>
+                            <td> <input type="date" max="2027-01-01" min="1990-12-01"/> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Gender:</p>
+                            <input type="radio" id="Male" name="Gender" value="Male">
+                            <label for="Male">Male</label><br>
+                            <input type="radio" id="Female" name="Gender" value="Female">
+                            <label for="Female">Female</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Address: </td>
+                            <td> <input type="text" placeholder="Enter your Address" required maxlength="32" minlength="8" id="Address"/> </td>
+                        </tr>
+                        <tr>
+                            <td> Email: </td>
+                            <td> <input type="text" placeholder="Enter your Email" required maxlength="32" minlength="8" id="email"/> </td>
+                        </tr>
+                        <tr>
+                            <td> Contact Number: </td>
+                            <td> <input type="text"  placeholder="Enter your Contact Number" required maxlength="11" minlength="1" id="number"/> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="onClick(event, 'thankyou.html')" id="button">Register</button>
+                            </td>
+                            
+                            <td>
+                                <input type="reset">
+                            </td>
+                        </tr>
+    
+                       
+                    </tr>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function onClick(e, url) {e.preventDefault(); window.location = url; }
+    </script>
+</body>

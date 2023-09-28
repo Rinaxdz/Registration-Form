@@ -1,0 +1,128 @@
+@import url(https://fonts.google.com/?fbclid=IwAR2LvI3mhB2q6JTsq0-tJ__4UKl1mNnOQciAmFZoPWu85FOJk5GNcHziBZg);
+
+@font-face {
+    font-family: bebas-neue;
+    src: url("BebasNeue-Regular.ttf");
+}
+
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    font-family: bebas-neue, Arial, Helvetica, sans-serif
+  }
+}
+#logo{
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+}
+.form-header{
+    text-emphasis: none;
+    text-shadow: #15b83b;
+    color: #7e5ba2;
+    font-size: 30px;
+    
+}
+
+.form-table{
+    color: black;
+    
+        border-radius: 18px;
+        background: #769ECB;
+        padding: 50px; 
+        width: auto;
+        height: auto;    
+        
+    
+
+    
+}
+#name{
+    border-radius: 25px;
+    border: 2px solid #769ECB;
+    padding: 10px; 
+    width: 200px;
+    height: 10px;  
+}
+#Address{
+    border-radius: 25px;
+    border: 2px solid #769ECB;
+    padding: 10px; 
+    width: 200px;
+    height: 10px;    
+}
+#email{
+    border-radius: 25px;
+    border: 2px solid #769ECB;
+    padding: 10px; 
+    width: 200px;
+    height: 10px;    
+}
+#number{
+    border-radius: 25px;
+    border: 2px solid #769ECB;
+    padding: 10px; 
+    width: 200px;
+    height: 10px;    
+}
+.button{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rebeccapurple;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    pointer-events: auto;
+    box-shadow: inset 0 0 0 0 green;
+    transition: ease-out 0.06s;
+}
+button:hover{
+    box-shadow: inset 200px 0 0 0 red;
+    color: black;
+}
+#button{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #77B5FE;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    pointer-events: auto;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    transition: ease-out 0.06s;
+}
+#button:hover{
+    box-shadow: inset 200px 0 0 0 #8ABF96;
+    color: black;
+}
+
+.form-container{
+    padding: 20px;
+    background-color: #A7D0D9;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+
+mark {
+    background-color: #FFF9B5;
+    color: black;
+  }
+

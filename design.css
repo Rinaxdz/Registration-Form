@@ -1,0 +1,36 @@
+/* design.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .text-center {
+    margin-bottom: 1.5rem;
+}
+
+.card .text-center h1 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.card .text-center p {
+    font-size: 16px;
+    color: #333;
+}
+
+.card .text-center .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.card .text-center .btn:hover {
+    background-color: #28a745;
+    color: #fff;
+    border-color: #28a745;
+}
