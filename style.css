@@ -93,7 +93,7 @@ button:hover{
     box-shadow: inset 200px 0 0 0 red;
     color: black;
 }
-#button{
+.btn{
     width: 200px;
     height: 25px;
     margin: 10px;
@@ -108,7 +108,7 @@ button:hover{
     box-shadow: inset 0 0 0 0 whitesmoke;
     transition: ease-out 0.06s;
 }
-#button:hover{
+.btn:hover{
     box-shadow: inset 200px 0 0 0 #8ABF96;
     color: black;
 }
